@@ -68,7 +68,7 @@ def enhance_user_prompt(prompt: str, image_type: str, conversation_history: str 
     **Crucially, you must return the enhanced prompt strictly adhering to the specified structure provided to you.**
     """
     
-    llm = ChatOpenAI(model_name = "gpt-4o", temperature="0.3", api_key="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")
+    llm = ChatOpenAI(model_name = "gpt-4o", temperature="0.3", api_key=os.environ("OPEN_API_KEY"))
 
     if image_type == "background":
         prompt_structure = get_model_fields_and_descriptions(BackgroundPromptStructure)
@@ -168,7 +168,7 @@ class ImageGenerationModels:
         input = {
             "prompt": prompt,
             "input_images": input_images,
-            "openai_api_key": "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"
+            "openai_api_key": os.environ("OPEN_API_KEY")
         }
 
         output = replicate.run(

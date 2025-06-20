@@ -1,11 +1,12 @@
 import time
+import os
 import replicate
 
 def image_by_openai_gpt1(prompt: str, set_up:str, input_images: list = []):
     input = {
         "prompt": prompt,
         "input_images": input_images,
-        "openai_api_key": "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"
+        "openai_api_key": os.environ("OPEN_API_KEY")
     }
 
     output = replicate.run(

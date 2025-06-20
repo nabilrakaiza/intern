@@ -1,4 +1,5 @@
 import json
+import os
 from typing import Optional, Literal
 import openai
 from pydantic import BaseModel, Field
@@ -17,7 +18,7 @@ def get_embeddings(text_list: list[str]) -> list[float]:
     """
     Given list of text. I want to embed the text so that I could calculate the similarity using cosine
     """
-    client = openai.OpenAI(api_key="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")
+    client = openai.OpenAI(api_key=os.environ("OPEN_API_KEY"))
 
     response = client.embeddings.create(
         model = "text-embedding-3-large",

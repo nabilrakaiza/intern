@@ -22,7 +22,7 @@ def call_gpt_with_prompt_model(
     :return:
     """
     if api_key is None:
-        api_key = "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"
+        api_key = os.environ("OPEN_API_KEY")
     if api_key is None:
         raise ValueError("OPENAI_API_KEY is not set")
     
