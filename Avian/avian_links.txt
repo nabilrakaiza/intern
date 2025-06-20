@@ -1,0 +1,35 @@
+Code:
+https://github.com/aldiferdiyan/avian/blob/master/backend/micro/routing/src/route/cvrptwp.py
+*CVRPTWP = capacitated vehicle routing with time window problem
+
+
+Evaluation notebook:
+https://colab.research.google.com/drive/1hjH81TNgr2fWL9rS4RkswhcsjdiPcAY6#scrollTo=KUzNNkXW8P8G
+
+
+Quantum Dashboard:
+https://avian.quantumteknologi.com/
+user : tumang
+pass : Sangkuriang@2024
+
+
+Locus Dashboard:
+https://avian-testac.locus-dashboard.com/
+user : SFA
+pass : Admin@123
+
+
+Akses locus prod
+https://avian.locus-dashboard.com/
+Username : 000-AU-SP10
+Password : Tktw@2025
+
+
+Update case untuk pengiriman luar kota dalam pulau:
+1. Cabang Gorontalo : https://avian.locus-dashboard.com/#/client/avian/batch/2025-05-09-PHWTO/plan/4799de411e1443deb9bbd9baa3c537d9/planned/timeline
+2. Cabang Masohi : https://avian.locus-dashboard.com/#/client/avian/batch/2025-04-21-16-58-27/plan/e72d656fffef491e97b4c55cac23cba4/planned/timeline
+Berikut contoh pengiriman luar kota antar pulau pada :
+1. Cabang Maumere : https://avian.locus-dashboard.com/#/client/avian/batch/2025-05-03-19B-0003/plan/ca375d0c359b42e383e50136337cb6f2/planned/timeline
+2. Cabang Tobelo : https://avian.locus-dashboard.com/#/client/avian/batch/2025-04-05-10-37-25/plan/565c44649b134a819f5e954794611601/planned/timeline
+
+
